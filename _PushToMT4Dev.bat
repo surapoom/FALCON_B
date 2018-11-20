@@ -5,10 +5,8 @@ rem Use in case some content needs to be replaced (reverted from Version Control
 setlocal enabledelayedexpansion
 
 :: Source Directory where Version Control Repository is located
-set SOURCE_DIR="C:\Users\fxtrams\Documents\000_TradingRepo\FALCON_B"
 set SOURCE_DIR="C:\LazyTrading\GitHub\FALCON_B"
 :: Destination Directory where Expert Advisor is located
-set DEST_DIR="C:\Program Files (x86)\FxPro - Terminal2\MQL4\Experts\04_FALCON_B"
 set DEST_DIR="C:\Program Files (x86)\ICMarkets MT4 Terminal2\MQL4\Experts\04_FALCON_B"
 
 ROBOCOPY %SOURCE_DIR% %DEST_DIR% *.mq4
